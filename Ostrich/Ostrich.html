@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ostrich</title>
+  <link rel="stylesheet" href="/OstrichStyle.css">
+</head>
+<body onload="listaDeValoresSalvos()">
+  <div>
+    <ul>
+      <li><button id='BToAdd' onclick="soma()">+</button></li>
+      <li><button onclick="pesquisa()">&#128269</button></li>
+    </ul>
+    <h1>Ostrich</h1>
+    <header id="Head">
+      <input type="number" id="Number" placeholder="Valor">
+      <input type="text" id="Letter" placeholder="Nome">
+      <button onclick="setValue()" id="Adic">+</button>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <th>Nome</th>
+          <th>Valor</th>
+          <th>Data</th>
+        </thead>
+      </table>
+    </main>
+  </div>
+</body>
+<script src="/Ostrich.js"></script>
+
+</html>
